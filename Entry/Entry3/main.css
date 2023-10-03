@@ -1,0 +1,79 @@
+body{
+	background-color: aquamarine;
+}
+
+body {
+background: url('img/Perfumeback.JPG'); /* Replace 'your-image.jpg' with your image file path */
+background-size: cover;
+
+}
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the top menu */
+.top-menu {
+  text-align: center;    /* Center-align the menu items horizontally */
+}
+
+.top-menu ul {
+    display:inline-block; /* Make the list items display horizontally */
+    align-content: flex-start;
+}
+
+.top-menu ul li {
+	align-content: flex-start;
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px;   /* Add some spacing between menu items */
+}
+
+.top-menu ul li:last-child {
+    margin-right: 40;      /* Remove margin from the last menu item */
+}
+
+.top-menu ul li a {
+    color: white;          /* Text color for menu items */
+    text-decoration: none; /* Remove underline on links */
+    font-size: 20px;       /* Adjust the font size as needed */
+    font-family: 'Mooli', sans-serif;
+}
+
+/* Center the menu vertically */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0;     /* Remove default margin */
+}
+
+h1{
+	color:white;
+	 font-size: 55px; /* Change '20px' to the desired font size */
+	font-family: courier;
+	text-align: center;
+	font-family: 'Mooli', sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 100vh;           /* Ensure the body covers the entire viewport height */
+    margin: 0;               /* Remove default margin */
+
+
+}/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container for the scrolling text */
+.scrolling-text {
+	font-family: courier;
+    background-color: hsla(0, 100%, 100%, 0.5); /* Background color for the scrolling text area */
+    color: white;          /* Text color */
+    padding: 10px;         /* Add padding for better visibility */
+
