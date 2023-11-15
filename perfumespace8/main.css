@@ -1,0 +1,83 @@
+
+body {
+background: url('Perfumeback.JPG'); /* Replace 'your-image.jpg' with your image file path */
+background-size: cover;
+}
+h2 {font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 17rem;
+    line-height: 1.2;
+    padding-top: 3.6rem /*!main_margin*/;
+    padding-bottom: 3.6rem /*!main_margin*/;
+    padding-left: 3.6rem /*!main_margin*/;
+    padding-right: 3.6rem /
+    }
+h3{
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Cormorant', serif;
+    font-family: 'Crimson Text', serif;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 3rem;
+}
+/* Define the initial styles for the text */
+h2{
+    transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+/* Define the hover styles for the text */
+h2:hover {
+    color: #fff; /* Change the text color to white on hover */
+    text-shadow: 0 0 10px yellow; /* Add a yellow outline glow */
+
+}
+#image1{
+    width: 400px; /* Set the container width as per your requirements */
+    height: 400px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 900px; /* Position from the top (adjust as needed) */
+    left: 800px;
+}
+#image2{
+    width: 400px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 1500px; /* Position from the top (adjust as needed) */
+    left: 500px;
+}
+#image3{
+    width: 400px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 2000px; /* Position from the top (adjust as needed) */
+    left: 650px;
+}
+#image4{
+    width: 400px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 1800px; /* Position from the top (adjust as needed) */
+    left: 150px;
+}
+#image5{
+    width: 450px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 2400px; /* Position from the top (adjust as needed) */
+    left: 100px;
+}
+#image6{
+    width: 500px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 1400px; /* Position from the top (adjust as needed) */
+    left: 850px;
+}
+#image7{
+    width: 450px; /* Set the container width as per your requirements */
+    height: 450px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 2600px; /* Position from the top (adjust as needed) */
+    left: 700px;
