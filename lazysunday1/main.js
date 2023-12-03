@@ -1,0 +1,1 @@
+<script type="text/javascript" src="INSERT PATH TO YOUR JS FILE HERE"></script>
