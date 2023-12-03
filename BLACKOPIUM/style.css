@@ -1,36 +1,69 @@
-h1{
-	font-size: 2.7rem;
-	color: rgba(255, 255, 255, 0.89);
-	font-family: Courier, "Courier New", monospace, Courier, Icons;
-	line-height: 1.1;
-	font-style: normal;
-	font-weight: 50;
+h1{margin: auto;
+	margin-top: 100px;
+  width: 50%;
+font-size:6rem;
+font-family: 'Exo', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+
+.palm {
+margin-top: 60px;
+width: 150px;
+height: 155px;
+transition: all 0.5s ease;
+}
+
+.palm:hover {
+  -webkit-transform: rotate(-360deg) scale(2);
+  transform: rotate(-360deg) scale(2);
+  cursor: pointer;
+}
+.h2:{margin: auto;
+  width: 50%;
+font-size:2.3rem;
+font-family: 'Exo', sans-serif;
+font-family: 'Pacifico', cursive;
+  background: -webkit-linear-gradient(#e128ff, #ff5151);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h2:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  }
+
+
+
 }
 body {
 background: url('back1.jpg'); /* Replace 'your-image.jpg' with your image file path */
 background-size: cover;
+float: left;
+
 }
-div{font-size: 1.0rem;
-	color: rgba(255, 255, 255, 0.89);
-	font-family: Courier, "Courier New", monospace, Courier, Icons;
-	line-height: 1.;
-	font-style: normal;
-	font-weight: 40;
-	text-align: left 
-	margin: 0;
-    width: 50%;
-    float: left;
-}
-h2{font-family: 'Cormorant', serif;
-font-family: 'Crimson Text', serif;}
+h3{ margin: auto;
+  width: 50%;
+font-size:3rem;
+font-family: 'Exo', sans-serif;
+font-family: 'Pacifico', cursive;
 }
 
-.image-container {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
+h4{ margin: auto;
+  width: 50%;
+	font-size:2.3rem;
+font-family: 'Exo', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Varela Round', sans-serif;}
 
+h5{ margin: auto;
+  width:50%;
+font-size:3rem;
+font-family: 'Varela Round', sans-serif;
+}
 .image-container img {
     width: 100%; /* Set the image to take up the entire container */
     transition: all 0.3s; /* Add a smooth transition effect */
@@ -49,4 +82,6 @@ font-family: 'Crimson Text', serif;}
 	width:30%;
 }
 #image4{
-	width:30%;
+width: 1500px;
+height: 900px;
+
