@@ -1,0 +1,303 @@
+h4{ color: #c8b489;
+	  margin: auto;
+  width: 50%;
+	font-size:2.3rem;
+	font-family: Courier, "Courier New", monospace, Courier, Icons;
+
+}
+body {
+background: url('back.png'); /* Replace 'your-image.jpg' with your image file path */
+background-size: cover;
+
+}
+h2{ margin: auto;
+  width: 50%;
+font-size:2.3rem;
+font-family: 'Exo', sans-serif;
+font-family: 'Pacifico', cursive;
+color: #c8b489}
+}
+#image1{
+width:5px; /* Set the container width as per your requirements */
+height:5px; /* Set the container height as per your requirements */
+    top: 10px; /* Position from the top (adjust as needed) */
+    left: 600px;
+}
+#image1:hover, .shakeimg:hover {
+         animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -moz-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -webkit-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -o-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         transform:translate3d(0,0,0); 
+         backface-visibility:hidden; 
+         perspective:1000px;
+      }
+
+      @keyframes shake { 
+         10%, 90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+      @-webkit-keyframes shake { 
+         10%, 90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+      @-moz-keyframes shake {
+         10%,90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+#dai{
+   width: 1500px; /* Set the container width as per your requirements */
+    height: 900px; /* Set the container height as per your requirements */
+    top: 10px; /* Position from the top (adjust as needed) */
+    left: 10px;
+}
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+html{
+    width:100%;
+    height:100%;
+
+}
+
+.box{
+    width:400px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    left:50%;
+    top:1800px;
+    margin-left:-200px;
+    margin-top:-100px;            
+}
+.box .content{
+    overflow:hidden;
+    width:400px;
+    height: 200px;
+    background:#000;
+    position:relative;    
+}
+.box .content img{
+    margin-top:-120px;
+    -webkit-transition: all 500ms ;
+    -moz-transition: all 500ms ;
+    -ms-transition: all 500ms ;
+    -o-transition: all 500ms ;
+    transition: all 500ms ;
+}
+.box .content:hover img{
+    opacity:0.3;
+    margin-top:-170px;
+    -webkit-filter: blur(3px);
+}
+.box .content:hover .text1{
+    left:130px;
+    opacity:1;    
+  
+}
+.box .content:hover .text2{
+    left:180px;
+    opacity:1;
+}
+.box .content .text1{
+    color:#fff;
+    font-size:40px;
+    font-family: 'Racing Sans One', cursive;
+    position:absolute;
+    left:330px;
+    top:60px;
+    opacity:0;
+
+-webkit-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+   -moz-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+    -ms-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+     -o-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+        transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795);
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+    -ms-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+        transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795);    
+}
+.box .content .text2{
+    color:#fff;
+    font-size:20px;
+    font-family: 'Racing Sans One', cursive;
+    position:absolute;
+    left:-100px;
+    top:100px;
+    opacity:0;
+-webkit-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+   -moz-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+    -ms-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+     -o-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+        transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980);
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+    -ms-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+        transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980);
+}
+.box:before{
+    content:"";
+    width:80%;
+    height:8px;
+    bottom: 18px;
+    left: 13px;
+    z-index: -1;
+    background: #000;
+    position: absolute;
+    box-shadow: -10px 10px 20px #000;
+    -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+.box:after{
+    content:"";
+    width:80%;
+    height:8px;
+    bottom: 18px;
+    right: 13px;
+    z-index: -1;
+    background: #000;
+    position: absolute;
+    box-shadow: 10px 10px 20px #000;
+    -moz-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+}
+
+.box{
+    width:400px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    left:70%;
+    top:1800px;
+    margin-left:-200px;
+    margin-top:-100px;            
+}
+.box .content{
+    overflow:hidden;
+    width:400px;
+    height: 200px;
+    background:#000;
+    position:relative;    
+}
+.box .content img{
+    margin-top:-120px;
+    -webkit-transition: all 500ms ;
+    -moz-transition: all 500ms ;
+    -ms-transition: all 500ms ;
+    -o-transition: all 500ms ;
+    transition: all 500ms ;
+}
+.box .content:hover img{
+    opacity:0.3;
+    margin-top:-170px;
+    -webkit-filter: blur(3px);
+}
+.box .content:hover .text1{
+    left:130px;
+    opacity:1;    
+  
+}
+.box .content:hover .text2{
+    left:180px;
+    opacity:1;
+}
+.box .content .text1{
+    color:#fff;
+    font-size:40px;
+    font-family: 'Racing Sans One', cursive;
+    position:absolute;
+    left:330px;
+    top:60px;
+    opacity:0;
+
+-webkit-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+   -moz-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+    -ms-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+     -o-transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+        transition: all 800ms cubic-bezier(0.000, 0.440, 0.000, 0.795);
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+    -ms-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795); 
+        transition-timing-function: cubic-bezier(0.000, 0.440, 0.000, 0.795);    
+}
+.box .content .text2{
+    color:#fff;
+    font-size:20px;
+    font-family: 'Racing Sans One', cursive;
+    position:absolute;
+    left:-100px;
+    top:100px;
+    opacity:0;
+-webkit-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+   -moz-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+    -ms-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+     -o-transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+        transition: all 800ms cubic-bezier(0.000, 0.890, 0.630, 0.980);
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+    -ms-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980); 
+        transition-timing-function: cubic-bezier(0.000, 0.890, 0.630, 0.980);
+}
+.box:before{
+    content:"";
+    width:80%;
+    height:8px;
+    bottom: 18px;
+    left: 13px;
+    z-index: -1;
+    background: #000;
+    position: absolute;
+    box-shadow: -10px 10px 20px #000;
+    -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+.box:after{
+    content:"";
+    width:80%;
+    height:8px;
+    bottom: 18px;
+    right: 13px;
+    z-index: -1;
+    background: #000;
+    position: absolute;
+    box-shadow: 10px 10px 20px #000;
+    -moz-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+​
+​
