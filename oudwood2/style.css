@@ -1,0 +1,110 @@
+/*** effect ellipse to square ***/
+
+.img-ellipse-square {width:500px;height:400px}
+.img-ellipse-square {-moz-border-radius:50%;-webkit-border-radius:50%;-o-border-radius:50%;border-radius:50%}
+.img-ellipse-square:hover {-moz-border-radius:0%;-webkit-border-radius:0%;-o-border-radius:0%;border-radius:0%}
+
+.img-ellipse-square
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-ellipse-square:hover
+{
+transition:all .4s ease-in-out;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-ms-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+}
+
+/*** effect ellipse to square ***/
+
+.img-ellipse-square2 {width:300px;height:200px;border-right: 60%}
+.img-ellipse-square2 {-moz-border-radius:50%;-webkit-border-radius:50%;-o-border-radius:50%;border-radius:50%}
+.img-ellipse-square2:hover {-moz-border-radius:0%;-webkit-border-radius:0%;-o-border-radius:0%;border-radius:0%}
+
+.img-ellipse-square2
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-ellipse-square2:hover
+{
+transition:all .4s ease-in-out;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-ms-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+}
+#image1{
+    width: 350px; /* Set the container width as per your requirements */
+    height: 350px; /* Set the container height as per your requirements */
+    position: absolute;
+    top: 320px; /* Position from the top (adjust as needed) */
+    left: 1000px;
+}#image1:hover, .shakeimg:hover {
+         animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -moz-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -webkit-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         -o-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; 
+         transform:translate3d(0,0,0); 
+         backface-visibility:hidden; 
+         perspective:1000px;
+      }
+
+      @keyframes shake { 
+         10%, 90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+      @-webkit-keyframes shake { 
+         10%, 90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+      @-moz-keyframes shake {
+         10%,90% { transform:translate3d(-1px,0,0) }
+         20%, 80% { transform:translate3d(2px,0,0) }
+         30%, 50%, 70% { transform:translate3d(-4px,0,0) }
+         40%, 60% { transform:translate3d(4px,0,0) }
+      }
+
+
+h1{ margin: auto;
+  width: 50%;
+  font-family: 'Courgette', cursive;
+	font-size:8rem;
+}
+h4{ margin: auto;
+  width: 50%;
+	font-size:2.3rem;
+font-family: 'Playball', cursive;
+color: #534a4f}
+h2{ margin: auto;
+  width: 50%;
+	font-size:3rem;
+font-family: 'Pangolin', cursive;
+}
+h3{ margin: auto;
+  width: 50%;
+	font-size:3rem;
+font-family: 'Pangolin', cursive;
+color: #534a4f;
+}
+#image4{
+width: 1500px;
+height: 900px;
+}
