@@ -1,0 +1,52 @@
+body {
+background: url('back1.jpg'); /* Replace 'your-image.jpg' with your image file path */
+background-size:cover;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%; /* Set the image to take up the entire container */
+    transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+.image-container:hover img {
+    filter: grayscale(100%); /* Convert the image to grayscale on hover */
+}
+.image-container img {
+    width: 70%;
+}
+#image1{
+	width:360px;
+}
+#image2{
+	width:360px;
+}
+#image3{
+	width:360px;
+}
+#image4{
+	width:360px;
+}h4{ margin: auto;
+  width: 50%;
+	font-size:2.3rem;
+	color: white;
+font-family: 'Pangolin', cursive;
+}
+h3{ margin: auto;
+  width: 50%;
+	font-size:3rem;
+	color: #88ebf0;
+font-family: 'Pangolin', cursive;
+font-family: 'Playball', cursive;
+}
+h1{ margin: auto;
+  width: 50%;
+	font-size:9rem;
+	color: #88ebf0;
+font-family: 'Pangolin', cursive;
+font-family: 'Playball', cursive;
+}
